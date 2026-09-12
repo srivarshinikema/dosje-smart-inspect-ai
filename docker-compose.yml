@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: dosje_postgres
+    environment:
+      POSTGRES_USER: dosje_user
+      POSTGRES_PASSWORD: dosje_password
+      POSTGRES_DB: dosje_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - dosje_network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: dosje_backend
+    environment:
+      DATABASE_URL: postgresql://dosje_user:dosje_password@postgres:5432/dosje_db
+      SECRET_KEY: your-super-secret-key-change-in-production
+      ALGORITHM: HS256
+      ACCESS_TOKEN_EXPIRE_MINUTES: 30
+      ENVIRONMENT: production
+    depends_on:
+      - postgres
+    ports:
+      - "8000:8000"
+    networks:
+      - dosje_network
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: dosje_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - dosje_network
+
+volumes:
+  postgres_data:
+
+networks:
+  dosje_network:
+    driver: bridge

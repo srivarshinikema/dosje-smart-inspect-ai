@@ -1,0 +1,30 @@
+name: dosje_smartinspect_mobile
+description: DoSJE SmartInspect AI - Inspector Mobile Application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^9.0.2
+  image_picker: ^1.0.4
+  http: ^1.1.0
+  provider: ^6.0.0
+  shared_preferences: ^2.2.2
+  google_maps_flutter: ^2.5.0
+  camera: ^0.10.4
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
