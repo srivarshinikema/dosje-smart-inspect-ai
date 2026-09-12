@@ -772,25 +772,6 @@ Developed as part of **Smart India Hackathon 2026** for the problem statement
 **SIH26095**.
 
 ---
-
-## ⚡ Vision
-
-> **From periodic manual inspection to intelligent, evidence-based,
-> real-time monitoring.**
-
-````
-
-### 🔥 GitHub lo minimum files
-
-```text
-README.md
-LICENSE
-.gitignore
-.env.example
-````
-
-
-
         ↓
 CCTV / Video Conference
         ↓
