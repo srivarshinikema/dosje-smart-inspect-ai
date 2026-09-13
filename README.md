@@ -644,8 +644,11 @@ See [LICENSE](LICENSE) file for details.
 ## 👥 Team
 
 **Development:** Sri Varshini Kema,Bhanu prakesh Ramisetti.
-**Testing:** Tharun Sai Kumar Ravilala,Neelima Korakappulla Neelima.
+
+**Testing:** Tharun Sai Kumar Ravilala,Neelima Korakappulla .
+
 **Deploying:** Shaik Aarif,Adapa Hemanth
+
 **Project:** DoSJE SmartInspect AI - SIH26095
 **Ministry:** Ministry of Social Justice and Empowerment
 **Challenge:** Smart Real-Time Monitoring & Inspection Mobile App
