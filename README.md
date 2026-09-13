@@ -647,7 +647,7 @@ See [LICENSE](LICENSE) file for details.
 
 **Testing:** Tharun Sai Kumar Ravilala, Neelima Korakappulla .
 
-**Deploying:** Shaik Aarif, Adapa Hemanth
+**Deploying:** Shaik Aarif, Adapa Hemanth.
 
 **Project:** DoSJE SmartInspect AI - SIH26095
 **Ministry:** Ministry of Social Justice and Empowerment
