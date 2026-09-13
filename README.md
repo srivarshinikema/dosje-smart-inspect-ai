@@ -650,7 +650,9 @@ See [LICENSE](LICENSE) file for details.
 **Deploying:** Shaik Aarif, Adapa Hemanth.
 
 **Project:** DoSJE SmartInspect AI - SIH26095
+
 **Ministry:** Ministry of Social Justice and Empowerment
+
 **Challenge:** Smart Real-Time Monitoring & Inspection Mobile App
 
 ---
