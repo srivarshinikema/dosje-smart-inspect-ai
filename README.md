@@ -653,7 +653,7 @@ See [LICENSE](LICENSE) file for details.
 
 **Ministry:** Ministry of Social Justice and Empowerment
 
-**Challenge:** Smart Real-Time Monitoring & Inspection Mobile App
+**Challenge:** Smart Real-Time Monitoring & Inspection Mobile App.
 
 ---
 
